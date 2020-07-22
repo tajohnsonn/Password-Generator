@@ -1,0 +1,101 @@
+/* This is the entire page */
+
+body {
+  background-color: black;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* This is the display pink box */
+
+.container {
+  background-color: lightsalmon;
+  padding: 3rem;
+  border-radius: 1rem;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Form Inputs - two columns */
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 2rem;
+  column-gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Password Generator Title */
+
+.title {
+  margin: 0;
+  text-align: canter;
+}
+
+/* Style Label Fonts */
+
+label {
+  font-weight: bold;
+}
+/* Number Box */
+
+.character-amount-countainer {
+  display: flex;
+  align-items: center;
+}
+
+.characterAmountNumber {
+  display: flex;
+  align-items: center;
+}
+
+.number-input {
+  width: 3rem;
+}
+/* Password Input Section */
+
+.password-display {
+  background-color: lightgrey;
+  color: black;
+  padding: 1rem;
+  border: 1px solid lightgrey;
+  height: 5rem;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+  border-radius: 1rem;
+}
+
+/* Generate Password Button + Copy to Cipboard Button */
+
+.btn1 {
+  grid-column: span 2;
+  background-color: transparent;
+  border: 2px solid lightgrey;
+  padding: 1rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.btn2 {
+  grid-column: span 2;
+  background-color: transparent;
+  border: 2px solid lightgrey;
+  padding: 1rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+}
