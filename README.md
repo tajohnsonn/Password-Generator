@@ -1,3 +1,5 @@
+## Password Generator 💬
+
 Create random passwords using the password generator tool.
 
 Check it out here: https://tajohnsonn.github.io/passwordGenerator/
